@@ -1,0 +1,26 @@
+{
+  "name": "backend0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PMKiet/BackEnd0.git"
+  },
+  "keywords": [
+    "BACkend"
+  ],
+  "author": "MinhKiet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PMKiet/BackEnd0/issues"
+  },
+  "homepage": "https://github.com/PMKiet/BackEnd0#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
