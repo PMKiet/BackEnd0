@@ -23,9 +23,9 @@ app.use('/', webRoute)
 
 connection.query(
      'SELECT * FROM Users u ',
-     // function (err, results, fields) {
-     //      console.log('>>>results: ', results); // results contains rows returned by server
-     // }
+     function (err, results, fields) {
+          console.log('>>>results: ', results); // results contains rows returned by server
+     }
 );
 
 app.listen(port, hostname, () => {
